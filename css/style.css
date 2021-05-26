@@ -1,0 +1,164 @@
+/*Estilos gerais*/
+body {
+    padding: 5em;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+/*Cabecalho*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+header .name {
+    display: block;
+}
+header .name h2{
+    color: rgb(141, 171, 236);
+}
+
+/*Sobre mim*/
+
+.about_me {
+    margin-bottom: 4em;
+}
+
+.about_me h2 {
+    padding-bottom: 1em;
+}
+
+.about_me h2::after{
+    content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: rgb(141, 171, 236); 
+	margin-left:0;
+}
+.about_me p {
+    text-align: justify;
+}
+
+/*Experiencias*/
+.experiences {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+}
+
+.experiences h2 {
+    padding-bottom: 1em;
+}
+
+.experiences h2::after{
+    content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: rgb(141, 171, 236); 
+	margin-left:0;
+}
+
+.experiences .experience  {
+    display: flex;
+    flex-direction: row;  
+}
+
+.experiences .experience h3{
+    padding-bottom: 0.2em;
+}
+
+.experiences .experience .experience_description {
+    padding-left: 10em;
+    text-align: justify;
+}
+
+.experiences .experience#up {
+    padding-top: 3em;
+}
+
+.experiences .experience h3#color {
+    color: rgb(141, 171, 236); ;
+}
+
+/*Educacao*/
+
+.education {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.education h2 {
+    padding-bottom: 1em;
+}
+
+.education h2::after{
+    content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: rgb(141, 171, 236); 
+	margin-left:0;
+}
+
+.education p{
+    margin: 0.5em 0 0.5em 0;
+    text-align: justify;
+}   
+
+/*Contato*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact h2::after{
+    content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: rgb(141, 171, 236); 
+	margin-left:0;
+}
+
+.contact h3:first-child{
+    padding-top: 2em;
+}
+
+.contact h3 {
+    padding-top: 1em;
+}
+
+.contact p {
+    color: rgb(141, 171, 236);
+}
+
+.contact p:last-child {
+    color: black;
+}
